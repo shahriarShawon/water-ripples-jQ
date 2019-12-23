@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background-image: url(bg1.jpg);
+  -webkit-backgroiund-size: cover;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 8em;
+  text-align: center;
+  font-family: poppins;
+}
